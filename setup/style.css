@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body {
+  font-family: Raleway, "sans-serif";
+  line-height: 1.7;
+  color: #2a2a2a;
+}
+
+a {
+  text-decoration: none;
+  color: #2a2a2a;
+  transition:0.3s;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+.a-carousel {
+  color: white;
+  text-decoration:none;
+  transition: 0.3s;
+}
+
+.a-carousel:hover {
+  opacity: 0.7;
+  color: #ffffff;
+}
+
+.navbar-brand {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+.navbar .nav-link{
+  font-weight: 400;
+  font-size: 13px;
+}
+
+h1, h2, h3, h4, h5, .display-4 {
+  font-weight: 700;
+} 
+
+.hero {
+  background-image: url(imgs/wallpaperflare.com_wallpaper\ \(1\).jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+}
+
+.btn {
+  scroll-behavior: smooth;
+  padding: 14px 50px;
+  border-width:2px;
+  font-size: 13px;
+  letter-spacing: 4px;
+}
+
+.card-text {
+  font-size: 13px;
+  text-align: end;
+}
+
+.list-group h1 {
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.list-group-item {
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 2px;
+}
+
+.forms-text {
+  font-size: 30px;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+footer {
+  margin-top: 3rem;
+  padding: 5rem 0;
+}
+
+footer h1 {
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.bi-whatsapp {
+  font-size: 25px;
+}
+
+.bi-facebook {
+  font-size: 25px;
+  margin-left: 1rem;
+}
+
+.bi-instagram {
+  font-size: 25px;
+  margin-left: 1rem;
+}
+
+.bi-twitter{
+  font-size: 25px;
+  margin-left: 1rem;
+}
+
+.bi-github{
+  font-size: 25px;
+  margin-left: 1rem;
+}
+
+
+/* ABOUT PAGE */
+.hero-about {
+  background-image: url(imgs/hd-wallpaper-7055153_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-about::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+
+.hero-about h1 {
+  letter-spacing: 10px;
+}
+
+.h-about {
+  letter-spacing: 10px;
+  font-size: 25px;
+}
+
+.p-text {
+  line-height: 1.5rem;
+  letter-spacing: 2px;
+}
+
+/* PAGE POSTS */
+
+.hero-post1 {
+  background-image: url(imgs/pexels-felix-mittermeier-1080401.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post1::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+.h-post {
+  font-size: 40px;
+  letter-spacing: 10px;
+}
+
+/* POST 2 */
+.hero-post2 {
+  background-image: url(imgs/pexels-achim-bongard-289327.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post2::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+
+/* POST 3 */
+.hero-post3 {
+  background-image: url(imgs/pexels-александр-прокофьев-561463.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post3::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 4 */
+.hero-post4 {
+  background-image: url(imgs/pexels-hung-tran-3699434.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post4::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 5 */
+.hero-post5 {
+  background-image: url(imgs/pexels-archie-binamira-913215.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post5::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 6 */
+.hero-post6 {
+  background-image: url(imgs/pexels-andrei-tanase-1271619.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post6::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+.li-post6 {
+  margin-bottom: 15px;
+}
+
+/* POST 7 */
+.hero-post7 {
+  background-image: url(imgs/pexels-kirill-lazarev-9986905.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post7::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 8 */
+.hero-post8 {
+  background-image: url(imgs/pexels-nathan-cowley-1089168.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post8::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 9 */
+.hero-post9 {
+  background-image: url(imgs/pexels-philippe-donn-1242764.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post9::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+/* POST 10 */
+.hero-post10 {
+  background-image: url(imgs/pexels-tim-gouw-443412.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  z-index: 2;
+  height: 50vh;
+}
+
+.hero-post10::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: -1;
+}
