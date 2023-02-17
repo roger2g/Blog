@@ -28,7 +28,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Dylan Blog é um site para ficar por dentro das informações que ocorrem na natureza.
 
-- [Visite o projeto online](gustavorogeriodev.github.io/Blog)
+- [Visite o projeto online](https://gustavorogeriodev.github.io/Blog/setup/)
 
 ## :memo: Licença
 
